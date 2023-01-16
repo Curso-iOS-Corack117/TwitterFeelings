@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3E45A712974C16000AB83E7 /* TwitterFeeling.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B3E45A702974C16000AB83E7 /* TwitterFeeling.mlmodel */; };
 		B3E6346E2974B4A80008F693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E6346D2974B4A80008F693 /* AppDelegate.swift */; };
 		B3E634702974B4A80008F693 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E6346F2974B4A80008F693 /* SceneDelegate.swift */; };
 		B3E634722974B4A80008F693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E634712974B4A80008F693 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3E45A702974C16000AB83E7 /* TwitterFeeling.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TwitterFeeling.mlmodel; sourceTree = "<group>"; };
 		B3E6346A2974B4A80008F693 /* TwitterFeelings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterFeelings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E6346D2974B4A80008F693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3E6346F2974B4A80008F693 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,15 +58,40 @@
 		B3E6346C2974B4A80008F693 /* TwitterFeelings */ = {
 			isa = PBXGroup;
 			children = (
+				B3E45A702974C16000AB83E7 /* TwitterFeeling.mlmodel */,
+				B3E6347B2974B4A90008F693 /* Info.plist */,
 				B3E6346D2974B4A80008F693 /* AppDelegate.swift */,
 				B3E6346F2974B4A80008F693 /* SceneDelegate.swift */,
-				B3E634712974B4A80008F693 /* ViewController.swift */,
-				B3E634732974B4A80008F693 /* Main.storyboard */,
-				B3E634762974B4A90008F693 /* Assets.xcassets */,
-				B3E634782974B4A90008F693 /* LaunchScreen.storyboard */,
-				B3E6347B2974B4A90008F693 /* Info.plist */,
+				B3E634842974B4C60008F693 /* Controllers */,
+				B3E634812974B4B10008F693 /* Supporting Files */,
+				B3E634822974B4B80008F693 /* Views */,
 			);
 			path = TwitterFeelings;
+			sourceTree = "<group>";
+		};
+		B3E634812974B4B10008F693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3E634762974B4A90008F693 /* Assets.xcassets */,
+				B3E634782974B4A90008F693 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3E634822974B4B80008F693 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3E634732974B4A80008F693 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3E634842974B4C60008F693 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3E634712974B4A80008F693 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				B3E634722974B4A80008F693 /* ViewController.swift in Sources */,
 				B3E6346E2974B4A80008F693 /* AppDelegate.swift in Sources */,
 				B3E634702974B4A80008F693 /* SceneDelegate.swift in Sources */,
+				B3E45A712974C16000AB83E7 /* TwitterFeeling.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
